@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mon formulaire de contact</title>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,100,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+<!-- Sans la balise Form, c'est dommage! Voir l'autre fichier -->
+  <body>
+    <div class="contact-wrapper">
+      <div class="form-horizontal">
+        <h1 class="section-header">Posez-nous vos questions !</h1>
+
+        <p>Nom</p>
+
+        <p>Email</p>
+
+        <p>Téléphone</p>
+
+        <p>Catégorie de question</p>
+
+        <p>Message</p>
+
+        <div class="send-button">Envoyer</div>
+
+        <div class="advert-wrapper">
+          <p>Souhaitez-vous recevoir nos news ?</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .form-horizontal {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      -webkit-box-shadow: 0px 0px 36px -7px rgba(171, 171, 171, 1);
+      -moz-box-shadow: 0px 0px 36px -7px rgba(171, 171, 171, 1);
+      box-shadow: 0px 0px 36px -7px rgba(171, 171, 171, 1);
+      border-radius: 20px;
+      margin-bottom: 2rem;
+    }
+
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2rem;
+    }
+
+    input,
+    textarea,
+    select {
+      margin-bottom: 1rem;
+      border-radius: 7px;
+      padding: 0.3rem;
+      border: solid 1px;
+    }
+
+    textarea {
+      max-width: 400px;
+      letter-spacing: 1px;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus,
+    button:focus {
+      outline: none;
+      -webkit-box-shadow: 0px 0px 11px -7px #bac4bf;
+      -moz-box-shadow: 0px 0px 11px -7px #bac4bf;
+      box-shadow: 0px 0px 11px -7px #bac4bf;
+      border: solid 1px #d5e1db;
+    }
+
+    label {
+      margin-bottom: 0.5rem;
+    }
+
+    .section-header {
+      text-align: center;
+      margin: 0 auto;
+      font: 300 2rem "Oswald", sans-serif;
+      letter-spacing: 6px;
+      margin-bottom: 25px;
+    }
+
+    .form-horizontal {
+      max-width: 400px;
+      font-family: "Lato";
+      font-weight: 400;
+    }
+
+    .send-button {
+      margin-top: 15px;
+      height: 34px;
+      width: 400px;
+      background-color: #d5e1db;
+      border: none;
+      border-radius: 7px;
+      font: 300 14px "Lato", sans-serif;
+      letter-spacing: 2px;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .send-button:hover {
+      cursor: pointer;
+      color: white;
+      background-color: #bac4bf;
+    }
+
+    .advert-wrapper {
+      color: grey;
+      font-size: 0.8rem;
+      margin-top: 2rem;
+    }
+  </style>
+</html>

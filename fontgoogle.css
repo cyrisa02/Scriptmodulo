@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Praise&display=swap");
+
+.name {
+  font-family: "Comforter Brush", cursive;
+
+  font-family: "Praise", cursive;
+}
+
+
+/* Google font, sélectionner sa font, puis select this style/ embed / récupérer le @import / mettre le @import dans le fichier CSS + mettre dans le sélecteur la font-family (le lien est toujours sur le googlefont en dessous du @import /// Ne pas mettre de balise <script> dans le CSS !!! */
